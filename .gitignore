@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+# Never commit hospital data or trained models
+*.csv
+*.csv.gz
+*.parquet
+*.npz
+*.pt
+*.pth
+*.pkl

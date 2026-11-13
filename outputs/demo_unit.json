@@ -1,0 +1,482 @@
+{
+  "WARNING": "SYNTHETIC DATA ONLY. These numbers describe a random generator, not patients, and are not evidence of clinical performance.",
+  "threshold": 0.11,
+  "beds": [
+    {
+      "bed": "Bed 03",
+      "label": "Synthetic patient S-1182",
+      "hours_in_unit": 29,
+      "risk_now": 0.72,
+      "risk_6h_ago": 0.05,
+      "alert": true,
+      "driving_organ": "respiratory",
+      "organ_contributions": {
+        "cardiovascular": 1.02,
+        "hematologic": -0.33,
+        "hepatic": 1.14,
+        "inflammatory": 0.75,
+        "neurologic": -0.13,
+        "renal": 0.9,
+        "respiratory": 2.54
+      },
+      "driver_values": {
+        "Resp": {
+          "value": 22.1,
+          "unit": "/min",
+          "change_6h": 4.8,
+          "hours_since_measured": 0
+        },
+        "SpO2": {
+          "value": 91.0,
+          "unit": "%",
+          "change_6h": -3.8,
+          "hours_since_measured": 0
+        }
+      },
+      "risk_last_24h": [
+        0.005,
+        0.001,
+        0.002,
+        0.001,
+        0.004,
+        0.007,
+        0.005,
+        0.009,
+        0.011,
+        0.018,
+        0.003,
+        0.001,
+        0.002,
+        0.0,
+        0.0,
+        0.002,
+        0.004,
+        0.053,
+        0.003,
+        0.298,
+        0.44,
+        0.153,
+        0.621,
+        0.718
+      ]
+    },
+    {
+      "bed": "Bed 02",
+      "label": "Synthetic patient S-0618",
+      "hours_in_unit": 28,
+      "risk_now": 0.32,
+      "risk_6h_ago": 0.01,
+      "alert": true,
+      "driving_organ": "inflammatory",
+      "organ_contributions": {
+        "cardiovascular": 0.87,
+        "hematologic": 0.0,
+        "hepatic": 0.61,
+        "inflammatory": 1.22,
+        "neurologic": 0.02,
+        "renal": 1.01,
+        "respiratory": 0.47
+      },
+      "driver_values": {
+        "Temp": {
+          "value": 37.7,
+          "unit": "°C",
+          "change_6h": 0.5,
+          "hours_since_measured": 1
+        },
+        "WBC": {
+          "value": 9.0,
+          "unit": "10⁹/L",
+          "change_6h": 0.0,
+          "hours_since_measured": null
+        }
+      },
+      "risk_last_24h": [
+        0.006,
+        0.007,
+        0.01,
+        0.002,
+        0.002,
+        0.004,
+        0.001,
+        0.007,
+        0.011,
+        0.007,
+        0.013,
+        0.007,
+        0.004,
+        0.003,
+        0.016,
+        0.023,
+        0.015,
+        0.009,
+        0.068,
+        0.09,
+        0.106,
+        0.046,
+        0.161,
+        0.324
+      ]
+    },
+    {
+      "bed": "Bed 01",
+      "label": "Synthetic patient S-0168",
+      "hours_in_unit": 61,
+      "risk_now": 0.18,
+      "risk_6h_ago": 0.03,
+      "alert": true,
+      "driving_organ": "cardiovascular",
+      "organ_contributions": {
+        "cardiovascular": 1.93,
+        "hematologic": -0.12,
+        "hepatic": 0.31,
+        "inflammatory": 0.37,
+        "neurologic": 0.17,
+        "renal": 0.37,
+        "respiratory": 0.43
+      },
+      "driver_values": {
+        "HR": {
+          "value": 106.1,
+          "unit": "bpm",
+          "change_6h": 12.6,
+          "hours_since_measured": 0
+        },
+        "MAP": {
+          "value": 91.5,
+          "unit": "mmHg",
+          "change_6h": -14.9,
+          "hours_since_measured": 0
+        },
+        "Lactate": {
+          "value": 1.2,
+          "unit": "mmol/L",
+          "change_6h": 0.0,
+          "hours_since_measured": 9
+        }
+      },
+      "risk_last_24h": [
+        0.006,
+        0.002,
+        0.051,
+        0.006,
+        0.029,
+        0.024,
+        0.031,
+        0.008,
+        0.002,
+        0.001,
+        0.0,
+        0.001,
+        0.001,
+        0.001,
+        0.002,
+        0.013,
+        0.016,
+        0.026,
+        0.059,
+        0.035,
+        0.02,
+        0.041,
+        0.087,
+        0.184
+      ]
+    },
+    {
+      "bed": "Bed 05",
+      "label": "Synthetic patient S-0443",
+      "hours_in_unit": 24,
+      "risk_now": 0.16,
+      "risk_6h_ago": 0.0,
+      "alert": true,
+      "driving_organ": "cardiovascular",
+      "organ_contributions": {
+        "cardiovascular": 2.13,
+        "hematologic": 0.05,
+        "hepatic": 0.03,
+        "inflammatory": 0.28,
+        "neurologic": -0.05,
+        "renal": 0.04,
+        "respiratory": 0.84
+      },
+      "driver_values": {
+        "HR": {
+          "value": 87.4,
+          "unit": "bpm",
+          "change_6h": 11.1,
+          "hours_since_measured": 0
+        },
+        "MAP": {
+          "value": 74.8,
+          "unit": "mmHg",
+          "change_6h": -8.0,
+          "hours_since_measured": 0
+        },
+        "Lactate": {
+          "value": 1.7,
+          "unit": "mmol/L",
+          "change_6h": 0.4,
+          "hours_since_measured": 5
+        }
+      },
+      "risk_last_24h": [
+        0.005,
+        0.005,
+        0.008,
+        0.007,
+        0.006,
+        0.008,
+        0.011,
+        0.058,
+        0.037,
+        0.03,
+        0.013,
+        0.111,
+        0.059,
+        0.006,
+        0.007,
+        0.006,
+        0.016,
+        0.003,
+        0.011,
+        0.013,
+        0.009,
+        0.013,
+        0.01,
+        0.163
+      ]
+    },
+    {
+      "bed": "Bed 04",
+      "label": "Synthetic patient S-0308",
+      "hours_in_unit": 32,
+      "risk_now": 0.09,
+      "risk_6h_ago": 0.01,
+      "alert": false,
+      "driving_organ": "respiratory",
+      "organ_contributions": {
+        "cardiovascular": 0.66,
+        "hematologic": 0.15,
+        "hepatic": -0.0,
+        "inflammatory": 0.2,
+        "neurologic": 0.25,
+        "renal": -0.12,
+        "respiratory": 1.49
+      },
+      "driver_values": {
+        "Resp": {
+          "value": 19.5,
+          "unit": "/min",
+          "change_6h": 2.3,
+          "hours_since_measured": 0
+        },
+        "SpO2": {
+          "value": 97.1,
+          "unit": "%",
+          "change_6h": -2.9,
+          "hours_since_measured": 0
+        }
+      },
+      "risk_last_24h": [
+        0.016,
+        0.004,
+        0.006,
+        0.007,
+        0.002,
+        0.003,
+        0.001,
+        0.005,
+        0.01,
+        0.003,
+        0.013,
+        0.011,
+        0.021,
+        0.004,
+        0.016,
+        0.011,
+        0.01,
+        0.01,
+        0.042,
+        0.101,
+        0.02,
+        0.042,
+        0.174,
+        0.089
+      ]
+    },
+    {
+      "bed": "Bed 06",
+      "label": "Synthetic patient S-1322",
+      "hours_in_unit": 70,
+      "risk_now": 0.0,
+      "risk_6h_ago": 0.0,
+      "alert": false,
+      "driving_organ": "respiratory",
+      "organ_contributions": {
+        "cardiovascular": -0.83,
+        "hematologic": 0.16,
+        "hepatic": 0.13,
+        "inflammatory": -0.57,
+        "neurologic": -0.05,
+        "renal": -0.19,
+        "respiratory": 0.38
+      },
+      "driver_values": {
+        "Resp": {
+          "value": 17.4,
+          "unit": "/min",
+          "change_6h": 4.2,
+          "hours_since_measured": 0
+        },
+        "SpO2": {
+          "value": 97.6,
+          "unit": "%",
+          "change_6h": 0.2,
+          "hours_since_measured": 1
+        }
+      },
+      "risk_last_24h": [
+        0.002,
+        0.013,
+        0.002,
+        0.013,
+        0.005,
+        0.008,
+        0.015,
+        0.004,
+        0.003,
+        0.0,
+        0.002,
+        0.06,
+        0.006,
+        0.002,
+        0.017,
+        0.047,
+        0.01,
+        0.001,
+        0.012,
+        0.007,
+        0.003,
+        0.012,
+        0.003,
+        0.003
+      ]
+    },
+    {
+      "bed": "Bed 07",
+      "label": "Synthetic patient S-0424",
+      "hours_in_unit": 31,
+      "risk_now": 0.0,
+      "risk_6h_ago": 0.01,
+      "alert": false,
+      "driving_organ": "cardiovascular",
+      "organ_contributions": {
+        "cardiovascular": 0.14,
+        "hematologic": -0.0,
+        "hepatic": -0.15,
+        "inflammatory": -0.26,
+        "neurologic": -0.39,
+        "renal": 0.1,
+        "respiratory": -1.11
+      },
+      "driver_values": {
+        "HR": {
+          "value": 83.5,
+          "unit": "bpm",
+          "change_6h": 10.2,
+          "hours_since_measured": 0
+        },
+        "MAP": {
+          "value": 83.4,
+          "unit": "mmHg",
+          "change_6h": 4.3,
+          "hours_since_measured": 0
+        },
+        "Lactate": {
+          "value": 0.8,
+          "unit": "mmol/L",
+          "change_6h": -0.1,
+          "hours_since_measured": 0
+        }
+      },
+      "risk_last_24h": [
+        0.001,
+        0.0,
+        0.0,
+        0.01,
+        0.003,
+        0.004,
+        0.005,
+        0.013,
+        0.004,
+        0.001,
+        0.002,
+        0.002,
+        0.001,
+        0.004,
+        0.005,
+        0.018,
+        0.096,
+        0.015,
+        0.014,
+        0.008,
+        0.023,
+        0.001,
+        0.001,
+        0.001
+      ]
+    },
+    {
+      "bed": "Bed 08",
+      "label": "Synthetic patient S-0427",
+      "hours_in_unit": 81,
+      "risk_now": 0.0,
+      "risk_6h_ago": 0.07,
+      "alert": false,
+      "driving_organ": "hematologic",
+      "organ_contributions": {
+        "cardiovascular": -0.27,
+        "hematologic": 0.02,
+        "hepatic": -0.03,
+        "inflammatory": -0.41,
+        "neurologic": 0.02,
+        "renal": -0.19,
+        "respiratory": -0.12
+      },
+      "driver_values": {
+        "Platelets": {
+          "value": 235.1,
+          "unit": "10⁹/L",
+          "change_6h": 0.1,
+          "hours_since_measured": 3
+        }
+      },
+      "risk_last_24h": [
+        0.026,
+        0.004,
+        0.025,
+        0.007,
+        0.012,
+        0.002,
+        0.005,
+        0.003,
+        0.004,
+        0.013,
+        0.005,
+        0.002,
+        0.019,
+        0.023,
+        0.014,
+        0.004,
+        0.005,
+        0.073,
+        0.002,
+        0.001,
+        0.003,
+        0.004,
+        0.001,
+        0.003
+      ]
+    }
+  ]
+}
